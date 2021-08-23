@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans>
+	<bean id="triangle" class="'org.uzma.javaBrains.Triangle">
+	<propert name="pointA" ref="Point1" />
+	<propert name="pointB" ref="Point2" />
+	<propert name="pointC" ref="Point3" />
+	</bean>
+	
+	<bean id="Point1" class="org.uzma.javaBrains.Point">
+	<propert name="X" value = "0" />
+	<propert name="Y" value = "0" />
+	</bean>
+	
+	<bean id="Point2" class="org.uzma.javaBrains.Point">
+	<propert name="X" value = "20" />
+	<propert name="Y" value = "-20" />
+	</bean>
+	
+	<bean id="Point3" class="org.uzma.javaBrains.Point">
+	<propert name="X" value = "05" />
+	<propert name="Y" value = "25" />
+	</bean>
+		
+</beans>
